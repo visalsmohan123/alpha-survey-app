@@ -1,0 +1,7 @@
+.body-cls{
+    position: fixed;
+    width: 100vw;
+    background-image: url("../../assets/bg.jpg");
+    background-size: cover;
+    height: calc(100vh - 101px);
+}
