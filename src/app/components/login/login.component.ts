@@ -26,7 +26,7 @@ export class LoginComponent implements OnInit {
       "password":password.value
     }
     const headers = new HttpHeaders({'Content-type': 'application/json'});
-    this.http.post('http://localhost:3000/users/api/auth/signin', reqObject, { headers: headers }).subscribe(
+    this.http.post('https://alpha-survey-backend-new1.onrender.com/users/api/auth/signin', reqObject, { headers: headers }).subscribe(
       // The response data
       (response) => {
 
