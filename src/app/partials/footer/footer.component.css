@@ -1,0 +1,7 @@
+.navbar{
+    height:50px;
+    font-family:arial;
+    width: 100vw;
+    position: fixed;
+    bottom: -20px;
+   }
